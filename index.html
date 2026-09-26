@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
-<meta name="description" content="일용직 노트 개인정보처리방침 — 근무 기록, 업체 정보, CSV 공유 및 Android 백업 안내. Privacy Policy for Daily Workers Note.">
+<meta name="description" content="일용직 노트 개인정보처리방침 — 근무 기록, 업체 정보, 전체 백업 공유 및 Android 백업 안내. Privacy Policy for Daily Workers Note.">
 <title>일용직 노트 개인정보처리방침 / Privacy Policy</title>
 <style>
 :root{color-scheme:only light;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;color:#243247;background:#fff}
@@ -20,8 +20,8 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <main>
 <section id="ko" aria-labelledby="title-ko">
 <h1 id="title-ko">일용직 노트 개인정보처리방침</h1>
-<p class="meta">시행일: 2026년 9월 21일 · 방침 버전 1.0<br>운영자: 성조안 · 앱 패키지: com.example.Dailywork</p>
-<div class="summary"><p><strong>근무 기록은 기기에서 관리합니다.</strong> 일용직 노트는 회원가입 없이 사용하며, 개발자 서버로 근무 기록이나 업체 정보를 전송하지 않습니다. 다만 사용자가 선택한 백업 파일 공유, 근무 내역 공유와 Android의 기기 백업·이전 기능을 통해 데이터가 기기 밖으로 전달될 수 있습니다.</p></div>
+<p class="meta">시행일: 2026년 9월 21일 · 방침 버전 1.0<br>운영자: 성조안 · 앱 패키지: com.joahn.dailyworkersnote</p>
+<div class="summary"><p><strong>근무 기록은 기기에서 관리합니다.</strong> 일용직 노트는 회원가입 없이 사용하며, 개발자 서버로 근무 기록이나 업체 정보를 전송하지 않습니다. 다만 사용자가 선택한 공유백업 내보내기, 근무 내역 공유와 Android의 기기 백업·이전 기능을 통해 데이터가 기기 밖으로 전달될 수 있습니다.</p></div>
 
 <h2>1. 처리 목적과 항목</h2>
 <p>일용직 노트는 근무일·공수·일당과 정산 내역을 기록하고, 월간·연간 합계와 아직 받지 못한 금액(미정산 모아보기)을 확인하며, 선택한 근무 내역을 공유하고, 기록을 백업·복구하는 앱입니다. 사용자가 입력한 다음 정보를 기기에서 처리합니다.</p>
@@ -29,8 +29,8 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <dt>근무 기록</dt><dd>날짜, 업체명, 공수, 단가, 세전 금액, 세율, 정산 여부, 메모, 표시 색상, 기록 식별번호 및 기존 휴무 기록의 구분값. 금액 계산과 달력 표시, 기록 검색·수정·삭제에 사용합니다.</dd>
 <dt>업체 정보</dt><dd>업체명, 기본 단가, 업체별 기본 세율, 목록 표시 순서, 사용자가 선택적으로 입력한 주소와 전화번호 최대 2개. 업체 선택과 기록 입력 편의에 사용합니다. 휴대전화 주소록을 읽거나 현재 위치를 조회하지 않습니다.</dd>
 <dt>설정</dt><dd>공수·단가·세율의 기본값, 증감값, 단축값 등 입력 설정을 앱 내부에 저장합니다.</dd>
-<dt>백업 파일 (CSV)</dt><dd>근무 기록을 CSV로 저장·공유하며, 복구 시 사용자가 선택한 파일을 읽습니다. CSV에는 근무 기록의 업체명과 메모가 포함되지만, 별도로 등록한 업체 주소·전화번호와 앱 설정은 포함하지 않습니다. 사용자가 메모에 직접 적은 개인정보는 CSV에도 포함될 수 있습니다.</dd>
-<dt>전체 백업 파일 (.dwn)</dt><dd>휴대폰을 바꿀 때 쓰는 전체 백업에는 근무 기록과 함께 <strong>업체의 주소·전화번호·기본 단가·세율, 그리고 앱 입력 설정이 모두 포함</strong>됩니다. CSV보다 담기는 정보가 많으므로 파일을 다른 사람에게 전달할 때 주의해 주세요.</dd>
+<dt>자동 백업 파일 (CSV)</dt><dd>기록이 바뀔 때마다 앱이 다운로드 폴더에 자동으로 갱신하는 파일이며, 복구할 때 사용자가 선택한 CSV도 읽습니다. CSV에는 근무 기록의 업체명과 메모가 포함되지만, 별도로 등록한 업체 주소·전화번호와 앱 설정은 포함하지 않습니다. 사용자가 메모에 직접 적은 개인정보는 CSV에도 포함될 수 있습니다.</dd>
+<dt>전체 백업 파일 (.dwn)</dt><dd>전체 백업에는 근무 기록과 함께 <strong>업체의 주소·전화번호·기본 단가·세율, 그리고 앱 입력 설정이 모두 포함</strong>됩니다. ‘전체백업 내보내기’(다운로드 폴더 저장)와 ‘공유백업 내보내기’(다른 앱으로 전송)는 <strong>내보내는 곳만 다르고 담기는 내용은 같습니다.</strong> CSV보다 담기는 정보가 많으므로 파일을 다른 사람에게 전달할 때 주의해 주세요.</dd>
 <dt>근무 내역 공유 파일</dt><dd>사용자가 미정산 모아보기나 선택 내역 공유에서 고른 기록을 텍스트·이미지(PNG)·PDF로 만듭니다. 날짜, 업체명, 공수, 단가, 세율, 금액, 정산 여부가 들어가며 <strong>메모와 업체 연락처는 넣지 않습니다.</strong> 한 번에 최대 200건까지 만듭니다.</dd>
 </dl>
 <p>개발자는 앱을 통해 이름, 연락처, 광고식별자, 위치, 이용 통계 등을 자동으로 수집하지 않으며, 광고·분석·원격 오류수집 SDK를 사용하지 않습니다. 주소·전화번호·메모 등에는 개인정보가 포함될 수 있으므로 필요한 내용만 입력해 주세요.</p>
@@ -38,16 +38,16 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <h2>2. 저장 위치와 보유 기간</h2>
 <ul>
 <li><strong>앱 내부:</strong> 근무 기록과 업체 정보는 앱 전용 데이터베이스에, 설정은 앱 내부 저장소에 보관합니다. 사용자가 삭제하거나 앱 데이터를 지울 때까지 유지됩니다.</li>
-<li><strong>다운로드 폴더:</strong> 기록 변경에 따른 자동 백업과 수동 백업은 기기의 다운로드 폴더에 CSV로 저장됩니다. 최신 백업 외에 이전 정상본이 남을 수 있으며, 사용자가 파일 관리 앱에서 삭제할 때까지 보관됩니다.</li>
+<li><strong>다운로드 폴더:</strong> 기록이 바뀔 때마다 앱이 기기의 다운로드 폴더에 CSV로 자동 백업을 저장합니다. 최신 백업 외에 이전 정상본이 남을 수 있으며, 사용자가 파일 관리 앱에서 삭제할 때까지 보관됩니다.</li>
 <li><strong>다운로드 폴더의 전체 백업:</strong> 사용자가 전체 백업을 누르면 업체 연락처와 앱 설정까지 담긴 .dwn 파일이 다운로드 폴더에 저장됩니다. 누를 때마다 새 파일이 생기며 자동으로 지워지지 않으므로, 필요 없어지면 파일 관리 앱에서 직접 삭제해 주세요.</li>
-<li><strong>복구 전 원본 사본:</strong> 복구 시 기존 근무 기록의 사본을 앱 내부에 보관합니다. 개별 기록을 삭제해도 이 사본은 즉시 지워지지 않으며, 앱 데이터 삭제 또는 앱 제거 시 함께 제거됩니다.</li>
-<li><strong>공유용 임시 파일:</strong> 공유할 CSV, 전체 백업(.dwn), 근무 내역 이미지·PDF를 앱 캐시에 생성합니다. 운영체제의 캐시 정리, 사용자의 캐시·앱 데이터 삭제 또는 앱 제거 시 삭제될 수 있습니다.</li>
+<li><strong>복구 전 원본 사본:</strong> 복구 시 복구 직전 데이터의 사본을 앱 내부에 보관합니다. 전체 백업(.dwn)으로 복구하면 이 사본에도 근무 기록과 함께 <strong>업체의 주소·전화번호와 앱 설정이 담기고</strong>, CSV로 복구하면 근무 기록만 담깁니다. 개별 기록을 삭제해도 이 사본은 즉시 지워지지 않으며, 앱 데이터 삭제 또는 앱 제거 시 함께 제거됩니다.</li>
+<li><strong>공유용 임시 파일:</strong> 공유할 전체 백업(.dwn)과 근무 내역 이미지·PDF를 앱 캐시에 생성합니다. 운영체제의 캐시 정리, 사용자의 캐시·앱 데이터 삭제 또는 앱 제거 시 삭제될 수 있습니다.</li>
 </ul>
 <p>개발자는 사용자의 근무 기록이나 업체 정보를 별도 서버에 보관하지 않습니다. Android 백업 및 외부에 저장한 사본의 보유 기간은 아래 3항과 5항을 참고해 주세요.</p>
 
 <h2>3. 공유, 외부 서비스 및 기기 백업</h2>
 <ul>
-<li><strong>백업 파일 공유:</strong> 사용자가 ‘공유로 백업’을 선택하면 Android 공유 창을 통해 사용자가 선택한 앱에 백업 파일 읽기 권한을 전달합니다. 메일·메신저·클라우드 등에 저장하거나 전송한 이후의 처리는 해당 서비스의 방침에 따릅니다.</li>
+<li><strong>공유백업 내보내기:</strong> 사용자가 ‘공유백업 내보내기’를 선택하면 Android 공유 창을 통해 사용자가 선택한 앱에 전체 백업 파일의 읽기 권한을 전달합니다. 이 파일에는 <strong>업체의 주소·전화번호와 앱 설정이 함께 들어 있습니다.</strong> 메일·메신저·클라우드 등에 저장하거나 전송한 이후의 처리는 해당 서비스의 방침에 따릅니다.</li>
 <li><strong>근무 내역 공유:</strong> 미정산 모아보기나 선택 내역 공유에서 사용자가 고른 기록을 텍스트·이미지·PDF로 만들어 Android 공유 창에 전달합니다. 내보내기 전에 미리보기로 내용을 확인할 수 있고, 메모와 업체 연락처는 포함되지 않습니다. 보낸 뒤의 처리는 받는 사람과 해당 서비스의 방침에 따릅니다.</li>
 <li><strong>전화 걸기:</strong> 업체 상세에서 전화번호를 누르면 기기의 전화 앱에 번호가 입력된 상태로 열립니다. 실제 발신은 사용자가 직접 하며, 앱은 전화 걸기 권한을 요구하지 않고 통화 내역에 접근하지 않습니다.</li>
 <li><strong>Android 백업·기기 이전:</strong> 이 앱은 Android 백업을 허용합니다. 기기·운영체제·계정의 설정에 따라 근무 기록, 업체 정보, 설정 및 앱 내부 파일이 Google 또는 기기 제조사의 백업 서비스로 복사되거나 새 기기로 이전될 수 있습니다. 개발자가 해당 백업에 접근하는 것은 아닙니다. 사용자는 기기의 백업 설정에서 관리할 수 있습니다.</li>
@@ -56,14 +56,14 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <p>개발자는 앱의 기록을 판매하거나 광고 목적으로 제3자에게 제공하지 않으며, 기록 처리를 위한 개발자 서버나 외부 위탁 서비스를 운영하지 않습니다. 사용자가 선택한 공유 서비스나 운영체제 백업 서비스의 서버 위치·국외 처리·보유 기간은 각 서비스의 방침을 확인해 주세요.</p>
 
 <h2>4. 권한 사용 목적</h2>
-<p>Android 9 이하에서는 CSV를 다운로드 폴더에 저장하기 위해 저장공간 권한(<code>WRITE_EXTERNAL_STORAGE</code>)을 요청합니다. Android 10 이상은 해당 권한 없이 운영체제의 저장 기능을 사용합니다. 권한을 거부하면 해당 버전에서 다운로드 폴더 백업이 제한될 수 있으나 근무 기록 입력·조회는 가능합니다.</p>
+<p>Android 9 이하에서는 백업 파일(자동 백업 CSV와 전체 백업 .dwn)을 다운로드 폴더에 저장하기 위해 저장공간 권한(<code>WRITE_EXTERNAL_STORAGE</code>)을 요청합니다. Android 10 이상은 해당 권한 없이 운영체제의 저장 기능을 사용합니다. 권한을 거부하면 해당 버전에서 다운로드 폴더 백업이 제한될 수 있으나 근무 기록 입력·조회는 가능합니다.</p>
 <p>카메라, 마이크, 위치, 주소록 접근 권한을 요청하지 않습니다. 앱 자체에는 인터넷 권한이 없으며, 사용자가 여는 외부 브라우저·공유 앱 및 운영체제 백업 서비스는 별도로 통신할 수 있습니다. 권한은 Android 설정의 앱 권한 메뉴에서 변경할 수 있습니다.</p>
 
 <h2>5. 열람·정정·삭제 및 처리정지</h2>
 <ul>
 <li>사용자는 앱에서 근무 기록과 업체 정보를 열람·수정·삭제할 수 있습니다. 처리를 원하지 않는 정보는 입력하지 않거나 삭제하고 앱 사용을 중단할 수 있습니다.</li>
 <li>앱 내부의 전체 데이터와 복구 전 사본을 지우려면 Android 설정 → 앱 → 일용직 노트 → 저장공간 → 데이터 삭제를 이용하거나 앱을 제거할 수 있습니다. 메뉴 이름은 기기에 따라 다릅니다.</li>
-<li><strong>앱 제거만으로 다운로드 폴더의 CSV, 외부 공유 사본, 운영체제 클라우드 백업까지 삭제되지는 않습니다.</strong> 이전 백업에 삭제한 기록이 남을 수 있으므로 필요하면 파일 관리 앱과 해당 외부 서비스의 백업 관리 화면에서 별도로 삭제해야 합니다. 남아 있는 사본을 복구하면 삭제한 기록이 다시 나타날 수 있습니다.</li>
+<li><strong>앱 제거만으로 다운로드 폴더의 CSV와 전체 백업(.dwn), 외부 공유 사본, 운영체제 클라우드 백업까지 삭제되지는 않습니다. 특히 다운로드 폴더의 .dwn 파일에는 업체 주소·전화번호가 들어 있습니다.</strong> 이전 백업에 삭제한 기록이 남을 수 있으므로 필요하면 파일 관리 앱과 해당 외부 서비스의 백업 관리 화면에서 별도로 삭제해야 합니다. 남아 있는 사본을 복구하면 삭제한 기록이 다시 나타날 수 있습니다.</li>
 <li>개발자는 기기에 저장된 기록에 접근할 수 없으므로 원격으로 열람·삭제할 수 없습니다. 별도 회원계정이 없어 계정 탈퇴 절차는 없습니다. 권리 행사나 사용 방법은 아래 연락처로 문의할 수 있습니다.</li>
 </ul>
 
@@ -85,29 +85,29 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <hr>
 <section id="en" lang="en" aria-labelledby="title-en">
 <h1 id="title-en">Daily Workers Note Privacy Policy</h1>
-<p class="meta">Effective: September 21, 2026 · Policy version 1.0<br>Operator: Seong Joahn (성조안) · Package: com.example.Dailywork</p>
-<div class="summary"><p><strong>Your work records are managed on your device.</strong> Daily Workers Note requires no account and does not transmit work records or company information to a developer-operated server. Data may leave the device through backup-file sharing or statement sharing you choose, or through Android backup and device transfer.</p></div>
+<p class="meta">Effective: September 21, 2026 · Policy version 1.0<br>Operator: Seong Joahn (성조안) · Package: com.joahn.dailyworkersnote</p>
+<div class="summary"><p><strong>Your work records are managed on your device.</strong> Daily Workers Note requires no account and does not transmit work records or company information to a developer-operated server. Data may leave the device through full-backup sharing or statement sharing you choose, or through Android backup and device transfer.</p></div>
 
 <h2>1. Purposes and information processed</h2>
 <p>The app records work dates, work units, daily wages and payment status, calculates monthly and annual totals, shows outstanding unpaid amounts, shares selected work statements, and backs up and restores records. It processes the information you enter on your device:</p>
 <dl><dt>Work records</dt><dd>Date, company name, work units, wage, gross amount, tax rate, payment status, notes, display color, record identifier and the status of legacy days-off records. These support calculations, calendar display, searching, editing and deletion.</dd>
 <dt>Company information</dt><dd>Company name, default wage, a company default tax rate, the list display order, and optional address and up to two phone numbers entered by you. These help select companies and enter records. The app does not read your phone's contact book or determine your current location.</dd>
 <dt>Settings</dt><dd>Default values, increments and shortcuts for work units, wages and tax rates are stored privately by the app.</dd>
-<dt>Backup files (CSV)</dt><dd>Work records can be saved and shared as CSV and restored from a file you select. CSV includes company names and notes from work records, but excludes separately registered company addresses, phone numbers and app settings. Personal information you type into notes can appear in the CSV.</dd>
-<dt>Full backup files (.dwn)</dt><dd>The full backup used when changing phones contains work records together with <strong>company addresses, phone numbers, default wages and tax rates, and all app input settings</strong>. It holds more information than a CSV, so take care when passing the file to others.</dd>
+<dt>Automatic backup files (CSV)</dt><dd>The app refreshes a CSV in your Downloads folder whenever records change, and restoring also reads a CSV you select. CSV includes company names and notes from work records, but excludes separately registered company addresses, phone numbers and app settings. Personal information you type into notes can appear in the CSV.</dd>
+<dt>Full backup files (.dwn)</dt><dd>A full backup contains work records together with <strong>company addresses, phone numbers, default wages and tax rates, and all app input settings</strong>. Exporting a full backup (saved to Downloads) and sharing a full backup (sent to another app) <strong>differ only in destination; the contents are identical.</strong> It holds more information than a CSV, so take care when passing the file to others.</dd>
 <dt>Statement share files</dt><dd>Records you select in the unpaid overview or statement sharing are rendered as text, an image (PNG) or a PDF. They contain dates, company names, work units, wages, tax rates, amounts and payment status, and <strong>exclude notes and company contact details.</strong> Up to 200 records are included at a time.</dd></dl>
 <p>The developer does not automatically collect names, contact details, advertising identifiers, location or usage statistics through the app. No advertising, analytics or remote crash-reporting SDKs are included. Addresses, phone numbers and notes may contain personal information; enter only what you need.</p>
 
 <h2>2. Storage and retention</h2>
 <ul><li><strong>Private app storage:</strong> work records and companies are stored in an app-private database, and settings in private storage, until you delete them or clear app data.</li>
-<li><strong>Downloads:</strong> automatic backups after record changes and manual backups save CSV files to your device's Downloads folder. A previous good copy may remain alongside the latest backup. Files remain until you delete them with a file manager.</li>
+<li><strong>Downloads:</strong> the app saves an automatic CSV backup to your device's Downloads folder whenever records change. A previous good copy may remain alongside the latest backup. Files remain until you delete them with a file manager.</li>
 <li><strong>Full backups in Downloads:</strong> tapping Full backup writes a .dwn file containing company contact details and app settings to the Downloads folder. Each tap creates a new file and none are removed automatically, so delete them with a file manager when no longer needed.</li>
-<li><strong>Pre-restore snapshots:</strong> restoring data preserves a copy of existing work records in private app storage. Deleting an individual record does not immediately remove it from this snapshot. Clearing app data or uninstalling the app removes these internal copies.</li>
-<li><strong>Temporary share files:</strong> CSV files, full backups (.dwn) and statement images or PDFs prepared for sharing are stored in the app cache. They may be removed by operating-system cache cleanup, clearing the cache or app data, or uninstalling.</li></ul>
+<li><strong>Pre-restore snapshots:</strong> restoring preserves a copy of the data as it was immediately before the restore in private app storage. A full-backup (.dwn) restore saves work records together with <strong>company addresses, phone numbers and app settings</strong>; a CSV restore saves work records only. Deleting an individual record does not immediately remove it from this snapshot. Clearing app data or uninstalling the app removes these internal copies.</li>
+<li><strong>Temporary share files:</strong> full backups (.dwn) and statement images or PDFs prepared for sharing are stored in the app cache. They may be removed by operating-system cache cleanup, clearing the cache or app data, or uninstalling.</li></ul>
 <p>The developer does not retain your work records or company information on a separate server. See sections 3 and 5 for operating-system backups and external copies.</p>
 
 <h2>3. Sharing, external services and device backup</h2>
-<ul><li><strong>Backup file sharing:</strong> choosing Share backup opens Android's share sheet and grants the app you select read access to the backup file. Copies sent to email, messaging or cloud services are governed by those services' policies.</li>
+<ul><li><strong>Sharing a full backup:</strong> choosing Share full backup opens Android's share sheet and grants the app you select read access to the full backup file. That file <strong>includes company addresses, phone numbers and app settings.</strong> Copies sent to email, messaging or cloud services are governed by those services' policies.</li>
 <li><strong>Statement sharing:</strong> records you select in the unpaid overview or statement sharing are rendered as text, an image or a PDF and passed to Android's share sheet. You can review the content in a preview first, and notes and company contact details are excluded. Handling after sending is governed by the recipient and the service you choose.</li>
 <li><strong>Phone dialling:</strong> tapping a phone number in company details opens your device's phone app with the number filled in. You place the call yourself; the app requests no calling permission and does not access call logs.</li>
 <li><strong>Android backup and transfer:</strong> Android backup is enabled for this app. Depending on device, operating-system and account settings, work records, companies, settings and internal files may be copied to Google or device-manufacturer backup services, or transferred to a new device. The developer cannot access these backups. Manage them in your device's backup settings.</li>
@@ -115,13 +115,13 @@ ul{padding-left:22px}li{margin:7px 0}dl{margin:0}dt{font-weight:700;margin-top:1
 <p>The developer does not sell records, provide them to third parties for advertising, or operate a server or outsourced processing service for your app records. Consult your selected sharing and operating-system backup providers for server locations, international processing and retention.</p>
 
 <h2>4. Permissions</h2>
-<p>On Android 9 and earlier, storage permission (<code>WRITE_EXTERNAL_STORAGE</code>) is requested to save CSV files to Downloads. Android 10 and later use system storage facilities without this permission. Denial may prevent Downloads backups on older devices, but you can still enter and view work records.</p>
+<p>On Android 9 and earlier, storage permission (<code>WRITE_EXTERNAL_STORAGE</code>) is requested to save backup files (the automatic CSV and full-backup .dwn) to Downloads. Android 10 and later use system storage facilities without this permission. Denial may prevent Downloads backups on older devices, but you can still enter and view work records.</p>
 <p>The app does not request camera, microphone, location or contacts permissions. It has no Internet permission of its own; external browsers, sharing apps and operating-system backup services may communicate separately. Manage permissions in Android's app settings.</p>
 
 <h2>5. Access, correction, deletion and stopping processing</h2>
 <ul><li>You can view, edit and delete work records and companies in the app. You may choose not to enter information, delete it, or stop using the app.</li>
 <li>To remove all internal data and pre-restore snapshots, use Android Settings → Apps → Daily Workers Note → Storage → Clear data, or uninstall. Menu names vary by device.</li>
-<li><strong>Uninstalling does not remove CSV files in Downloads, shared copies or operating-system cloud backups.</strong> Previous backups may still contain deleted records. Delete them separately using your file manager and the relevant service's backup controls. Restoring a remaining copy can bring deleted records back.</li>
+<li><strong>Uninstalling does not remove CSV or full-backup (.dwn) files in Downloads, shared copies or operating-system cloud backups. The .dwn files in Downloads also contain company addresses and phone numbers.</strong> Previous backups may still contain deleted records. Delete them separately using your file manager and the relevant service's backup controls. Restoring a remaining copy can bring deleted records back.</li>
 <li>The developer cannot remotely access or delete records stored on your device. There is no account to close. Contact the address below for help or privacy requests.</li></ul>
 
 <h2>6. Security measures</h2>
